@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/toolBarText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Make a move," />
+    <TextView
+        android:id="@+id/moveText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop ="@+id/toolBarText"
+        android:layout_marginTop = "20dp" 
+        android:gravity="center"
+        android:text="X's turn" />
+
+    <TextView
+        android:id="@+id/playerText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom = "20dp"
+        android:gravity="center"
+        android:text="Player X goes first" />
+    <TextView
+        android:id="@+id/playerText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Player X goes first" />
+
+</RelativeLayout>
